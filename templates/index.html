@@ -17,7 +17,7 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	Enter Years of Experience: <input type="text" name="yExp" placeholder="Enter experience" required="required" /><br>
+    	Enter Years of Experience in float: <input type="text" name="yExp" placeholder="Enter experience" required="required" /><br>
         
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict Salary</button>
